@@ -43,13 +43,13 @@ basic.forever(function () {
     if (AutoMode == 1) {
         basic.showString("A")
         redLight()
-        basic.pause(5000)
+        basic.pause(5000 * AutoMode)
         yellowLight()
-        basic.pause(1000)
+        basic.pause(1000 * AutoMode)
         greenLight()
-        basic.pause(5000)
+        basic.pause(5000 * AutoMode)
         yellowLight()
-        basic.pause(1000)
+        basic.pause(1000 * AutoMode)
         redLight()
     }
 })
